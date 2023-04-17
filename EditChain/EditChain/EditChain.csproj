@@ -4,6 +4,33 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Ehonour.EditChain</Title>
+    <Authors>ehonour</Authors>
+    <Description>Lightweight way of tracking previous versions of objects. Works with anything that implements ISerializable or is marked with the [Serializable] attribute.</Description>
+    <PackageProjectUrl>https://github.com/autophage/EditChain</PackageProjectUrl>
+    <PackageIcon>project-picture.png</PackageIcon>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/autophage/EditChain</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>version tracking; track changes; audit; edit chain;</PackageTags>
+    <PackageReleaseNotes>Initial commit</PackageReleaseNotes>
+    <IncludeSymbols>True</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\project-picture.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
