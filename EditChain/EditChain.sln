@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EditChain", "EditChain\EditChain.csproj", "{A3285679-8959-4DAB-B41A-54DC57C61480}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3285679-8959-4DAB-B41A-54DC57C61480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3285679-8959-4DAB-B41A-54DC57C61480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3285679-8959-4DAB-B41A-54DC57C61480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3285679-8959-4DAB-B41A-54DC57C61480}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC1A72A7-7447-4EC3-9A3D-2E5330C685B2}
+	EndGlobalSection
+EndGlobal
